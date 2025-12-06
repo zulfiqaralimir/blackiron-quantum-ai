@@ -8,7 +8,7 @@ export default function Home() {
       <ParticlesBackground />
 
       {/* DARK OVERLAY */}
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px] z-0"></div>
+      <div className="absolute inset-0 bg-grey/60 backdrop-blur-[2px] z-0"></div>
 
       {/* CONTENT */}
       <div className="relative z-10 max-w-4xl mx-auto">
