@@ -87,8 +87,8 @@ export default function OnBoarding() {
                 data: {
                     label: 'About',
                     main: true,
-                    url: 'https://barbarpotato.github.io/About/',
-                    description: "Describing myself as a software engineer with a strong focus on software development and architecture."
+                    url: 'https://blackiron-quantum-ai.vercel.app/',
+                    description: "Providing Agentic AI solutions that transcend traditional boundaries, delivering intelligence beyond the surface."
                 },
                 position: { x: -100, y: 120 },
                 sourcePosition: 'right'
@@ -99,8 +99,8 @@ export default function OnBoarding() {
                 data: {
                     label: 'Labs',
                     main: true,
-                    url: 'https://barbarpotato.github.io/Labs/',
-                    description: "Technical articles, tutorials, and insights about web development and software engineering."
+                    url: 'https://blackiron-quantum-ai.vercel.app/',
+                    description: "Agentic AI engineering."
                 },
                 position: { x: 0, y: 200 },
                 sourcePosition: 'right'
