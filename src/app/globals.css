@@ -10,7 +10,20 @@ html, body {
   height: 100%;
   background-color: #000;
   color: #fff;
-  overflow-x: hidden;
+  overflow-x: hidden;anav div a,
+nav button {
+  transition: color 0.25s ease;
+}
+
+nav div div {
+  animation: fadeIn 0.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 }
 
 /* FORCE particles canvas to always appear */
@@ -21,4 +34,8 @@ html, body {
   height: 100% !important;
   pointer-events: none !important;
   z-index: 0 !important;
+}
+/* Global Dark Background */
+body {
+  font-family: system-ui, sans-serif;
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./globals.css"; // MUST be here only
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "Black Iron Quantum AI",
   description:
-    "A next-generation AI company building Agentic AI systems, quantum-inspired analytics, and enterprise-grade automation.",
+    "Engineering Intelligence Beyond the Surface — Advanced Agentic AI Systems, Quantum Analytics, and Cyber-Intelligence.",
 };
 
 export default function RootLayout({
@@ -18,19 +18,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* FONT AWESOME FOR ICONS */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         />
       </head>
 
-      <body className="bg-black text-white antialiased">
+      <body className="bg-[#080808] text-white antialiased">
+
+        {/* NAVBAR */}
         <Navbar />
 
-        <main className="pt-24 min-h-screen relative z-10">
-          {children}
-        </main>
+        {/* MAIN CONTENT */}
+        <main className="pt-24">{children}</main>
 
+        {/* FOOTER */}
         <Footer />
       </body>
     </html>
