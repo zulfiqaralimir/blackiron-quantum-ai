@@ -53,7 +53,7 @@ function Hero() {
             'Databricks', 'Snowflake', 'Azure', 'Docker', 'CI/CD', "Agentic AI",
             'Vector DB', 'Machine Learning', 'LLM', 'Deep Learning', "Computer Vision", "Observability", "Graffana", "Prometheus",
             'Blockchain', 'gRPC', 'Power BI', 'Solana', 'RESTful APIs', 'GraphQL', 'LangGraph',
-            'Microservices', 'Serverless', 'Monolithic', "Sharding", "Partitioning", "Replication",
+            'Microservices', 'Serverless', 'Monolithic', "Kafka", "Data Warehouse", "Game Theory",
             'Event-Driven', 'CQRS', "CAP", "AI", "Data Science", "Monitoring", "Automation",
         ];
 

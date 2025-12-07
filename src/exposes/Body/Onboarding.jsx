@@ -111,7 +111,7 @@ export default function OnBoarding() {
                 data: {
                     label: 'Projects',
                     main: true,
-                    url: 'https://barbarpotato.github.io/Projects/',
+                    url: 'https://blackiron-quantum-ai.vercel.app/Projects/',
                     description: "A mix of things I’ve built—some for fun, some for work, all focused on making ideas come to life with clean and solid code."
                 },
                 position: { x: -120, y: 280 },
@@ -123,7 +123,7 @@ export default function OnBoarding() {
                 data: {
                     label: 'Badges',
                     main: true,
-                    url: 'https://barbarpotato.github.io/Badges/',
+                    url: 'https://blackiron-quantum-ai.vercel.app/Badges/',
                     description: "These badges represent the certificates I’ve earned through my journey of learning across a variety of online platforms."
                 },
                 position: { x: 0, y: 370 },
@@ -135,7 +135,7 @@ export default function OnBoarding() {
                 data: {
                     label: 'Experiences',
                     main: true,
-                    url: 'https://barbarpotato.github.io/Experiences/',
+                    url: 'https://blackiron-quantum-ai.vercel.app/Experiences/',
                     description: "Explore some of my past experiences, where I’ve consistently tracked and evaluated my progress."
                 },
                 position: { x: -120, y: 470 },
@@ -147,7 +147,7 @@ export default function OnBoarding() {
                 data: {
                     label: 'Hello Visitors👋',
                     description: 'These Section Allows You to Understand the sitemap of my Portfolio',
-                    url: "https://barbarpotato.github.io/",
+                    url: "https://blackiron-quantum-ai.vercel.app/",
                     trigger: 0
                 },
                 position: { x: 270, y: 220 },

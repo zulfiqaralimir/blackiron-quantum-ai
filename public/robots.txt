@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://barbarpotato.github.io/
+Host: https://blackiron-quantum-ai.vercel.app/
 
 # Sitemaps
-Sitemap: https://barbarpotato.github.io/sitemap.xml
+Sitemap: https://blackiron-quantum-ai.vercel.app/sitemap.xml
