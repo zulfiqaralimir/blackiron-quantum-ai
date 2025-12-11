@@ -8,8 +8,10 @@ import OnBoarding from './Body/Onboarding'
 import Hero from './Body/Hero'
 import Labs from './Body/Labs'
 
-import { Navigation, Footer, Darwin } from 'personal-shared-layout'
+import { Darwin } from 'personal-shared-layout'
 import Projects from './Body/Projects'
+import Navigation from '../Navigation'
+import Footer from '../Footer'
 
 function Portfolio() {
 
